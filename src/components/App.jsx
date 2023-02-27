@@ -74,7 +74,7 @@ export class App extends Component {
           color: '#010101',
         }}
       >
-        <h1>Phonebook</h1>
+        <h1 className={css.mainTitle}>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
 
         <h2 className={css.titleContacts}>Contacts</h2>
